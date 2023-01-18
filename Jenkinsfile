@@ -11,7 +11,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 //sh
-                bat "docker build -t=ssomanpfpt/selenium-docker ."
+                bat "docker build -t=ssomanpfpt/selenium-docker:${BUILD_NUMBER} ."
             }
         }
         stage('Push Image') {
