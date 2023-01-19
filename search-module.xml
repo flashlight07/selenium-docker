@@ -24,4 +24,10 @@
             <class name="com.searchmodule.tests.SearchTest" />
         </classes>
     </test>
+    <test name="search-test-ketchup">
+        <parameter name="keyword" value="ketchup" />
+        <classes>
+            <class name="com.searchmodule.tests.SearchTest" />
+        </classes>
+    </test>
 </suite>
